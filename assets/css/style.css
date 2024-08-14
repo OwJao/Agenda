@@ -9,11 +9,34 @@
         text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.37);
     }
 
+    #divpage {
+        justify-content: center;
+        gap: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .arrow {
+        border: 1px solid rgb(56, 53, 53);
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 7px;
+        transition: all .3s ease;
+    }
+
+    .arrow:hover {
+        transition: all .3s ease;
+        cursor: pointer;
+        box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
+    }
+
     #page {
         margin: 0;
         margin-bottom: 10px;
         padding: 0;
         font-style: italic;
+        color: #d6d4d4;
     }
     
     #mural {
@@ -59,7 +82,7 @@
     #addbotao {
         font-size: 1.1em;
         background-color: transparent;
-        color: #7A7979;
+        color: #a19e9e;
         border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
         height: 40px;
@@ -120,11 +143,34 @@
         text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.37);
     }
 
+    #divpage {
+        justify-content: center;
+        gap: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .arrow {
+        border: 1px solid rgb(56, 53, 53);
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 7px;
+        transition: all .3s ease;
+    }
+
+    .arrow:hover {
+        transition: all .3s ease;
+        cursor: pointer;
+        box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
+    }
+
     #page {
         margin: 0;
         margin-bottom: 10px;
         padding: 0;
         font-style: italic;
+        color: #d6d4d4;
     }
 
     #mural {
@@ -170,7 +216,7 @@
     #addbotao {
         font-size: 1.1em;
         background-color: transparent;
-        color: #7A7979;
+        color: #a19e9e;
         border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
         height: 40px;
@@ -233,11 +279,33 @@
         text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.37);
     }
 
+    #divpage {
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .arrow {
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 7px;
+        transition: all .3s ease;
+    }
+
+    .arrow:hover {
+        transition: all .3s ease;
+        cursor: pointer;
+        box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
+    }
+
     #page {
         margin: 0;
         margin-bottom: 10px;
         padding: 0;
         font-style: italic;
+        color: #d6d4d4;
     }
 
     #mural {
@@ -284,7 +352,7 @@
     #addbotao {
         font-size: 1.1em;
         background-color: transparent;
-        color: #7A7979;
+        color: #a19e9e;
         border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
         height: 40px;
@@ -308,7 +376,7 @@
         background-color: transparent;
         color: white;
         width: 99.5%;
-        height: 95%;
+        height: 90%;
         resize: none;
         border: none;
         outline: none;
