@@ -1,0 +1,336 @@
+@media (min-width: 1000px) {
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #191919;
+        color: white;
+    }
+    
+    body h1 {
+        text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.37);
+    }
+
+    #page {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        font-style: italic;
+    }
+    
+    #mural {
+        display: flex;
+        justify-content: space-around;   
+        flex-direction: row;
+    }
+    
+    #verticalline {
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        padding: 0;
+        height: 95vh;
+        border: none;
+        background-color: white;
+        width: 2px;
+    }
+    
+    #tarefas {
+        width: 40vw;
+        text-align: center;
+    }
+
+    #pergunta {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    #txt {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgb(122, 121, 121);
+        font-size: 1.1em;
+        font-weight: lighter;
+        color: white;
+        outline: none;
+        height: 33px;
+        width: 50%;
+    }
+
+    #addbotao {
+        font-size: 1.1em;
+        background-color: transparent;
+        color: #7A7979;
+        border: 1px solid rgb(56, 53, 53);
+        border-radius: 5px;
+        height: 40px;
+        width: 30%;
+        padding: 0px 20px 0px 20px;
+        transition: all .3s ease;
+    }
+
+    #addbotao:hover {
+        transition: all .3s ease;
+        cursor: pointer;
+        box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
+    }
+    
+    #anotacoes {
+        width: 60vw;
+        text-align: center;
+    }
+
+    #txtanotacoes {
+        background-color: transparent;
+        color: white;
+        width: 99.5%;
+        height: 95%;
+        resize: none;
+        border: none;
+        outline: none;
+        font-size: 1.5em;
+        font-weight: lighter;
+        line-height: 2em;
+        background-image: linear-gradient(to bottom, gray 1px, transparent 1px);
+        background-size: 100% 2em;
+    }
+    
+    #espaco1 {
+        background-color: #111111;
+        height: 80vh;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    #espaco2 {
+        background-color: #111111;
+        height: 80vh;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width:600px) and (max-width: 1000px) {
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #191919;
+        color: white;
+    }
+    
+    body h1 {
+        text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.37);
+    }
+
+    #page {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        font-style: italic;
+    }
+
+    #mural {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #verticalline {
+        padding: 0;
+        border: none;
+        background-color: white;
+        height: 1px;
+        width: 90vw;
+        margin-top: 30px;
+    }
+
+    #tarefas {
+        width: 85vw;
+        text-align: center;
+    }
+    
+    #pergunta {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #txt {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgb(122, 121, 121);
+        font-size: 1.1em;
+        font-weight: lighter;
+        color: white;
+        outline: none;
+        margin-left: 5%;
+        width: 50%;
+        height: 33px;
+    }
+
+    #addbotao {
+        font-size: 1.1em;
+        background-color: transparent;
+        color: #7A7979;
+        border: 1px solid rgb(56, 53, 53);
+        border-radius: 5px;
+        height: 40px;
+        width: 30%;
+        margin-right: 5%;
+        padding: 0px 20px 0px 20px;
+        transition: all .3s ease;
+    }
+
+    #addbotao:hover {
+        transition: all .3s ease;
+        cursor: pointer;
+        box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
+    }
+    
+    #anotacoes {
+        width: 85vw;
+        text-align: center;
+    }
+
+    #txtanotacoes {
+        background-color: transparent;
+        color: white;
+        width: 99.5%;
+        height: 95%;
+        resize: none;
+        border: none;
+        outline: none;
+        font-size: 1.5em;
+        font-weight: lighter;
+        line-height: 2em;
+        background-image: linear-gradient(to bottom, gray 1px, transparent 1px);
+        background-size: 100% 2em;
+    }
+    
+    #espaco1 {
+        background-color: #111111;
+        height: 80vh;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    #espaco2 {
+        background-color: #111111;
+        height: 80vh;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #191919;
+        color: white;
+    }
+    
+    body h1 {
+        text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.37);
+    }
+
+    #page {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        font-style: italic;
+    }
+
+    #mural {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #verticalline {
+        padding: 0;
+        border: none;
+        background-color: white;
+        height: 1px;
+        width: 90vw;
+        margin-top: 30px;
+    }
+
+    #tarefas {
+        width: 90vw;
+        text-align: center;
+    }
+    
+    #pergunta {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4%;
+    }
+
+    #txt {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgb(122, 121, 121);
+        font-size: 1.1em;
+        font-weight: lighter;
+        color: white;
+        outline: none;
+        height: 33px;
+        width: 60%;
+        margin-left: 2%;
+    }
+
+    #addbotao {
+        font-size: 1.1em;
+        background-color: transparent;
+        color: #7A7979;
+        border: 1px solid rgb(56, 53, 53);
+        border-radius: 5px;
+        height: 40px;
+        margin-right: 2%;
+        padding: 0px 20px 0px 20px;
+        transition: all .3s ease;
+    }
+
+    #addbotao:hover {
+        transition: all .3s ease;
+        cursor: pointer;
+        box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
+    }
+    
+    #anotacoes {
+        width: 90vw;
+        text-align: center;
+    }
+
+    #txtanotacoes {
+        background-color: transparent;
+        color: white;
+        width: 99.5%;
+        height: 95%;
+        resize: none;
+        border: none;
+        outline: none;
+        font-size: 1.5em;
+        font-weight: lighter;
+        line-height: 2em;
+        background-image: linear-gradient(to bottom, gray 1px, transparent 1px);
+        background-size: 100% 2em;
+    }
+    
+    #espaco1 {
+        background-color: #111111;
+        height: 80vh;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    #espaco2 {
+        background-color: #111111;
+        height: 80vh;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+}
