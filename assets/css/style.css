@@ -17,15 +17,32 @@
         align-items: center;
     }
 
-    .arrow {
+    .arrow1 {
+        display: none;
         border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
-        padding: 10px;
         margin-bottom: 7px;
         transition: all .3s ease;
+        font-size: 2em;
+        color: #a19e9e;
     }
 
-    .arrow:hover {
+    .arrow1:hover {
+        transition: all .3s ease;
+        cursor: pointer;
+        box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
+    }
+
+    .arrow2 {
+        border: 1px solid rgb(56, 53, 53);
+        border-radius: 5px;
+        margin-bottom: 7px;
+        transition: all .3s ease;
+        font-size: 2em;
+        color: #a19e9e;
+    }
+
+    .arrow2:hover {
         transition: all .3s ease;
         cursor: pointer;
         box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
@@ -96,6 +113,19 @@
         cursor: pointer;
         box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
     }
+
+    #lista {
+        margin: 10px;
+        border-radius: 5px;
+        padding: 1px 10px 10px 25px;
+        height: 85%;
+        text-align: left;
+        color: white;
+    }
+
+    #pointer {
+        cursor: pointer;
+    }
     
     #anotacoes {
         width: 60vw;
@@ -151,15 +181,32 @@
         align-items: center;
     }
 
-    .arrow {
+    .arrow1 {
+        display: none;
         border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
-        padding: 10px;
         margin-bottom: 7px;
         transition: all .3s ease;
+        font-size: 2em;
+        color: #a19e9e;
     }
 
-    .arrow:hover {
+    .arrow1:hover {
+        transition: all .3s ease;
+        cursor: pointer;
+        box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
+    }
+
+    .arrow2 {
+        border: 1px solid rgb(56, 53, 53);
+        border-radius: 5px;
+        margin-bottom: 7px;
+        transition: all .3s ease;
+        font-size: 2em;
+        color: #a19e9e;
+    }
+
+    .arrow2:hover {
         transition: all .3s ease;
         cursor: pointer;
         box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
@@ -286,15 +333,32 @@
         align-items: center;
     }
 
-    .arrow {
-        border: 1px solid grey;
+    .arrow1 {
+        display: none;
+        border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
-        padding: 10px;
         margin-bottom: 7px;
         transition: all .3s ease;
+        font-size: 2em;
+        color: #a19e9e;
     }
 
-    .arrow:hover {
+    .arrow1:hover {
+        transition: all .3s ease;
+        cursor: pointer;
+        box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
+    }
+
+    .arrow2 {
+        border: 1px solid rgb(56, 53, 53);
+        border-radius: 5px;
+        margin-bottom: 7px;
+        transition: all .3s ease;
+        font-size: 2em;
+        color: #a19e9e;
+    }
+
+    .arrow2:hover {
         transition: all .3s ease;
         cursor: pointer;
         box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
