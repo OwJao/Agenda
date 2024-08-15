@@ -127,6 +127,10 @@
         padding-right: 20px;
         cursor: pointer;
     }
+
+    .risco {
+        text-decoration: line-through;
+    }
     
     #anotacoes {
         width: 60vw;
@@ -280,6 +284,20 @@
         box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
     }
     
+    #lista {
+        margin: 10px;
+        border-radius: 5px;
+        padding: 1px 10px 10px 25px;
+        height: 85%;
+        text-align: left;
+        color: white;
+    }
+
+    .pointer {
+        padding-right: 20px;
+        cursor: pointer;
+    }
+    
     #anotacoes {
         width: 85vw;
         text-align: center;
@@ -430,6 +448,20 @@
         transition: all .3s ease;
         cursor: pointer;
         box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
+    }
+
+    #lista {
+        margin: 10px;
+        border-radius: 5px;
+        padding: 1px 10px 10px 25px;
+        height: 85%;
+        text-align: left;
+        color: white;
+    }
+
+    .pointer {
+        padding-right: 20px;
+        cursor: pointer;
     }
     
     #anotacoes {
