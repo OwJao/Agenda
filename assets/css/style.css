@@ -18,13 +18,14 @@
     }
 
     .arrow1 {
-        display: none;
+        visibility: hidden;
         border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
         margin-bottom: 7px;
         transition: all .3s ease;
         font-size: 2em;
         color: #a19e9e;
+        opacity: 0;
     }
 
     .arrow1:hover {
@@ -33,13 +34,20 @@
         box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
     }
 
+    .arrow1.show {
+        visibility: visible;
+        opacity: 1;
+    }
+
     .arrow2 {
+        visibility: visible;
         border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
         margin-bottom: 7px;
         transition: all .3s ease;
         font-size: 2em;
         color: #a19e9e;
+        opacity: 1;
     }
 
     .arrow2:hover {
@@ -187,13 +195,14 @@
     }
 
     .arrow1 {
-        display: none;
+        visibility: hidden;
         border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
         margin-bottom: 7px;
         transition: all .3s ease;
         font-size: 2em;
         color: #a19e9e;
+        opacity: 0;
     }
 
     .arrow1:hover {
@@ -202,13 +211,20 @@
         box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
     }
 
+    .arrow1.show {
+        visibility: visible;
+        opacity: 1;
+    }
+
     .arrow2 {
+        visibility: visible;
         border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
         margin-bottom: 7px;
         transition: all .3s ease;
         font-size: 2em;
         color: #a19e9e;
+        opacity: 1;
     }
 
     .arrow2:hover {
@@ -353,13 +369,14 @@
     }
 
     .arrow1 {
-        display: none;
+        visibility: hidden;
         border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
         margin-bottom: 7px;
         transition: all .3s ease;
         font-size: 2em;
         color: #a19e9e;
+        opacity: 0;
     }
 
     .arrow1:hover {
@@ -368,13 +385,20 @@
         box-shadow: inset 0px 0px 5px 3px rgb(56, 53, 53);
     }
 
+    .arrow1.show {
+        visibility: visible;
+        opacity: 1;
+    }
+
     .arrow2 {
+        visibility: visible;
         border: 1px solid rgb(56, 53, 53);
         border-radius: 5px;
         margin-bottom: 7px;
         transition: all .3s ease;
         font-size: 2em;
         color: #a19e9e;
+        opacity: 1;
     }
 
     .arrow2:hover {
